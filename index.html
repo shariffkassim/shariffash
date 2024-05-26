@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+<title>Kassim's Pharmaceutical Company</title>
+<style>
+ 
+</style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Kassim's Pharmaceutical Company</h1>
+    </div>
+    <div class="carthelp text-end">
+      <a href="#" id="button">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <img src="shopping cart.jpeg" alt="sh">
+      </a>
+      <a href="#" id="snp"> Help<i class="fa fa-bolt" aria-hidden="true"></i>
+        <img src="help.webp" alt="sh">
+      </a>
+  </div>
+    <!-- Navigation bar with menu items -->
+    <nav class="navbar">
+      <div class="search-bar">
+          <!-- The form -->
+          <div class="input-group w-20%">
+            <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="Search-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="Search-addon2">SEARCH</button>
+          </div>
+        </div>
+
+  <div class="logo">
+          <ul>
+      <li><a href="#">Home</a>
+        
+      </li>
+      <li><a href="products.html">Products</a>
+      <ul class="dropdown">
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Favorite Brands</a></li>
+        <li><a href="#">Recommended Drugs</a></li>
+        <li><a href="#">Products secrecy</a></li>
+      </ul>
+      </li>
+      <li><a href="about.html">About Us</a>
+      <ul class="dropdown">
+        <li><a href="#">Out team</a></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Vision</a></li>
+        <li><a href="#">Mission</a></li>
+      </ul>
+      </li>
+      <li><a href="contact.html">Contact</a>
+      <ul class="dropdown">
+        <li><a href="#">Telephone</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Direction</a></li>
+      </ul>
+      </li>
+    </ul>
+    </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  
+  <!-- Banner section -->
+  <section class="bg-dark text-light p-5 text-center">
+    <h1>Welcome to Kassim's Pharmaceutical</h1>
+    <!-- Placeholder for banner image -->
+    <img class="w-100%" src="Man-talking-to-pharmacist main bn.jpg" alt="Main Banner">
+  </section>
+
+  <!-- Our Favorite Brands section -->
+    <div class="new-arrivals">
+      <h2>Our <span>Favorite Brands</span></h2>
+      <div class="slider-container">
+          <button class="prev">&#10094;</button>
+          <div class="product-slider">
+              <div class="product">
+                  <img src="Janssen f brnd.webp" alt="Wooden Train Set">
+                  <h3>Janssen</h3>
+                  <p>Town & Country</p>
+                  <p class="price">$54.95</p>
+              </div>
+              <div class="product">
+                  <img src="fovorite brand pfizer.webp" alt="Rocking Horse">
+                  <h3>Pfizer</h3>
+                  <p>Happy Trails</p>
+                  <p class="price">$89.95</p>
+              </div>
+              <div class="product">
+                  <img src="sanofi frtn bnd.webp" alt="Wooden Fire Engine">
+                  <h3>Sanofi</h3>
+                  <p>Kid's Toy</p>
+                  <p class="price">$59.99</p>
+              </div>
+              <div class="product">
+                  <img src="astrazeneca frbnd.webp" alt="Wooden Fire Engine">
+                  <h3>Astrazeneca</h3>
+                  <p>Kid's Toy</p>
+                  <p class="price">$59.99</p>
+              </div>
+              <div class="product">
+                  <img src="fovorite brand msd.webp" alt="Wooden Fire Engine">
+                  <h3></h3>
+                  <p>MSD</p>
+                  <p class="price">$59.99</p>
+              </div>
+              <div class="product">
+                  <img src="cosmos.jpg" alt="Wooden Fire Engine">
+                  <h3>Cosmos</h3>
+                  <p>Kid's Toy</p>
+                  <p class="price">$59.99</p>
+              </div>
+              <div class="product">
+                  <img src="fovorite brand msd1.jpg" alt="Scrabble">
+                  <h3>Scrabble</h3>
+                  <p>Hasbro</p>
+                  <p class="price">$19.45</p>
+              </div>
+          </div>
+          <button class="next">&#10095;</button>
+      </div>
+  </div>
+  <!-----end of card slider section 1-->
+  
+    
+
+  <!-- New Arrivals section -->
+  <section class="bg-dark text-light p-5 text-center">
+    <h2>Latest medicines</h2>
+    <p>Collection of Drugs</p>
+    <!-- Placeholder images for new products -->
+    <div class="container d-flex justify-content-center">
+          <div class=" image f">
+            
+          </div>
+              <img class="initial-scale" src="latest med.webp" alt="image">
+          </a>
+      </div>
+      
+    </div>
+      
+  </section>
+
+  <!-- Best Sellers section -->
+  <div class="recommendations-container">
+    <h2>Best Drug Sellers<span>for you</span></h2>
+    <div class="slider-container">
+        <button class="prev" onclick="slide(-1)">&#10094;</button>
+        <div class="slider">
+            <div class="card">
+                <img src="Ruhani drug sellers.png" alt="Magic Wand" class="card-image">
+                <div class="card-content">
+                    <h3>Ruhani</h3>
+                    <p>Herbal medicines for You</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="pharma sellers.jpg" alt="Magic Linking Rings" class="card-image">
+                <div class="card-content">
+                    <h3>Pharma</h3>
+                    <p>All cancer blood-pressure-drugs</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="allied-pharma.jpg" alt="Disappearing Coin Trick" class="card-image">
+                <div class="card-content">
+                    <h3>allied-pharma</h3>
+                    <p>Trusted drugs</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="cosmos.jpg" alt="Disappearing Coin Trick" class="card-image">
+                <div class="card-content">
+                    <h3>Cosmos</h3>
+                    <p>Kenya's pride</p>
+                
+                </div>
+            </div>
+            <div class="card">
+                <img src="cancer recomm drug.jpg" alt="Disappearing Coin Trick" class="card-image">
+                <div class="card-content">
+                    <h3>Disappearing Coin Trick</h3>
+                    <p>Magician's Guild</p>
+                  
+                </div>
+            </div>
+            <div class="card">
+                <img src="covd 19 new drg.avif" alt="Disappearing Coin Trick" class="card-image">
+                <div class="card-content">
+                    <h3>Disappearing Coin Trick</h3>
+                    <p>Magician's Guild</p>
+                    <p>$10.50</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="fam.jpeg" alt="Disappearing Coin Trick" class="card-image">
+                <div class="card-content">
+                    <h3>Disappearing Coin Trick</h3>
+                    <p>Magician's Guild</p>
+                    <p>$10.50</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Ruhani drug sellers.png" alt="Invisible Card Deck" class="card-image">
+                <div class="card-content">
+                    <h3>Invisible Card Deck</h3>
+                    <p>Magic Co</p>
+                  
+                </div>
+            </div>
+        </div>
+        <button class="next" onclick="slide(1)">&#10095;</button>
+    </div>
+</div>
+<hr/>
+
+  <!-- Recommendations section -->
+  <section class="bg-dark text-light p-5 text-center">
+    <h2>Recommended Drugs for You</h2>
+    <p>
+      This are some of the best medicines we can recommended on our patient with cancer, tonsils,cold flu ,hypertension and many other diseases.
+      The listed are just but few of our products.
+    </p>
+    <!-- Placeholder images for recommended products -->
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+  
+        <div class="col-lg-4 col-md-4 col-xs-4 ">
+            <div class=" image-lg-4">
+              <p>
+                Antihistamines
+              </p>
+              <h6>@6000Kshs</h6>
+            </div>
+                <img class="initial-scale" src="Phenylephrine products cold flu recc.jpg" alt="image">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-4 ">
+          <div class=" image-lg-4">
+            <p>Farestone</p>
+            <h6>@4000Kshs</h6>
+          </div>
+            
+                <img class="initial-scale" src="cancer recomm drug.jpg" alt="image">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-4 t">
+          <div class=" image-lg-4">
+            <p>Tonsillitishomeopathy</p>
+            <h6>@670Kshs</h6>
+          </div>
+            
+                <img class="initial-scale" src="Tonsillitishomeopathy recc.webp" alt="image">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-4 ">
+          <div class=" image-lg-4">
+            <p>Herbal medicine for cancer</p>
+            <h6>@5654Kshs</h6>
+          </div>
+          
+              <img class="" src="herbal-medicine recc cancer.png" alt="image">
+          </a>
+      </div>
+        
+    </section>
+  
+
+  <!-- Our Story section -->
+  <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+      <div>
+      <div class="d-xxl-flex">
+        <h2>How It <span class="text-warning"> Started </span></h2>
+        <p class="lead my-4">
+          On the 25th of July, 2023, the small town of Newford witnessed the grand opening of Kassim's Pharmaceutical Company. The brainchild of Shariff Kassim, a seasoned pharmacist with a vision for accessible and affordable healthcare, the company began its journey in a modest building on Elm Street.
+
+          Shariff's passion for medicine was kindled in his early years, watching his father, a renowned herbalist, treat the sick with natural remedies. This inspired Shariff to pursue a formal education in pharmacy, blending traditional knowledge with modern science. After years of working for various pharmaceutical giants, he decided it was time to carve his own path.
+          
+          Kassim's Pharmaceutical Company was not just another business venture; it was Shariff's commitment to his community. He wanted to ensure that everyone, regardless of their financial status, had access to essential medications. To this end, he negotiated with suppliers to get the best rates, kept his profit margins low, and set up a fund to assist those who couldn't afford even the minimal costs...
+          
+          
+        </p>
+        <button class="btn btn-primary btn-lg">Read 
+          more</button>
+      </div>
+      <img class="img-fluid w-30% height-40%" src="WhatsApp Image 2024-05-17 at 9.03.48 AM (1).jpeg" alt="Our Story">
+    </div> 
+    </section>
+      
+    <!-- Placeholder image for company story -->
+    
+  </section>
+</main>
+
+<footer>
+  <!-- Follow us on Instagram section -->
+  <section class="Follow">
+    <h2>Follow Us on Instagram</h2>
+    <!-- Placeholder images for Instagram posts -->
+    <section class="bg-success text-light p-5">
+    <div class="Follow">
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+    
+          <div class="col-lg-4 col-md-4 col-xs-4 ">
+              <div class=" image-lg-4">
+                <p>Sample testing for covid-19 medicine</p>
+              </div>
+                  <img class="initial-scale" src="insta.jpeg" alt="image">
+              </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4 ">
+            <div class=" image-lg-4">
+              <p>Research center</p>
+            </div>
+              
+                  <img class="initial-scale" src="insta2.jpeg" alt="image">
+              </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4 t">
+            <div class=" image-lg-4">
+              <p>C.E.O with theatre doctors</p>
+            </div>
+              
+                  <img class="initial-scale" src="insta5 manager.jpg" alt="image">
+              </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4 ">
+            <div class=" image-lg-4">
+              <p>Processing Squad</p>
+            </div>
+            
+                <img class="" src="insta6 emloy.jpeg" alt="image">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-4 t">
+          <div class=" image-lg-4">
+            <p>Founder of KPCltd</p>
+          </div>
+            
+                <img class="initial-scale" src="WhatsApp Image 2024-05-17 at 9.10.38 AM.jpeg" alt="image">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-4 ">
+          <div class=" image-lg-4">
+            <p>Our Team of dedicated doctors</p>
+          </div>
+          
+              <img class="" src="fam.jpeg" alt="image">
+          </a>
+      </div>
+      </section>
+  
+  <footer>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white font-size-xl" style="background-color: #1c2331">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #9c99aa">
+            <!-- Left -->
+            <div class="me-5 font-size-200px">
+                <span>Connect with us through social media</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+              <div class="social-media text-end">
+                <a href="#"><img src="facebk.jpeg" alt="Facebook"></a>
+                <a href="#twitter"><img src="twitter.jpeg" alt="Twitter"></a>
+                <a href="#instagram"><img src="insta logo.jpeg" alt="Instagram"></a>
+                <a href="#twitter"><img src="R.png" alt="linkedin"></a>
+              </div>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+<!-- Social media icons -->
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-lg-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">Kassim's Pharmaceuticals Company</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #a293c9; height: 2px" />
+                        <a href="#"><img src="blood-pressure-drugs recc.jpg" alt="" style="width:200px"></a>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Products</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #9e90c7; height: 2px" />
+                        <p>
+                            <a href="#" class="text-white">Favorite Brands</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white">Best medicines</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white">New Arrivals</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white">Other Related Products</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#" class="text-white">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white"></a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-white">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-envelope mr-3"></i> kassimapharmaltd@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> +254 797977184</p>
+                        <p><i class="fas fa-print mr-3"></i> +254 43 065 656</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+  <section class="bg-secondary text-light p-5 text-center " style="background-color: rgba(97, 104, 73, 0.2)">
+    <p>&copy; 2024 QUALITY HEALTHCARE IS OUR FIRST PRIORITY.TOGETHER WE CAN.WELCOME AGAIN @KassimsPLtd.</p>
+  </section>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
